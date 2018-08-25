@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OXINION_Example' do
+  pod 'OXINION', :path => '../'
+
+  target 'OXINION_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
