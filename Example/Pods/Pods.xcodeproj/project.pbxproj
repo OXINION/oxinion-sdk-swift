@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1B9CF6ED48BE8113129FA793A91E3159 /* Pods-OXINION_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 797FEDA3E6E0A77AF820A6744D7F1102 /* Pods-OXINION_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26F8DF6E02AC0CD11B9E2D7EA2B45746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3BF117BD35979185AC6B195BB5152C5A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D617860192C8486CA5AB90532EFF7 /* ReplaceMe.swift */; };
 		51EE11F1DA2B4EF4809B0642E9B8C871 /* Pods-OXINION_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4DF1E40AEF85EEECCDDFED2D2D08BF /* Pods-OXINION_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		613433DDDF318A2E97027562AAC60069 /* OXINION-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 368C8CF5A97F902B1FBDE75BE3920F12 /* OXINION-dummy.m */; };
 		9BCEE04A1EC53F9E4A5153FBDE3224A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -17,6 +16,7 @@
 		C435A72FD0851C0BA3574B277F49C5A8 /* Pods-OXINION_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9D094AA8884F850A816EB8E624CF20 /* Pods-OXINION_Tests-dummy.m */; };
 		D2626EEE8D71AA786DCF991B15DF4369 /* Pods-OXINION_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5ADB59B49DAEF02D4827D8CD3E6BCC /* Pods-OXINION_Example-dummy.m */; };
 		D97F79890A03E98A3836773A5DF52333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F2237578213293D900497A61 /* OXINION.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2237577213293D900497A61 /* OXINION.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		06433B5DBEB194D501CC0892209CE8A8 /* Pods-OXINION_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OXINION_Example-resources.sh"; sourceTree = "<group>"; };
-		15F4EDC373123313C9FF43264FEC8B7A /* OXINION.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OXINION.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1A38238EFCBE3E5EF738FC63792B4CF7 /* OXINION.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OXINION.framework; path = OXINION.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		200C7B47FC58B701C395118A125906A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		15F4EDC373123313C9FF43264FEC8B7A /* OXINION.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = OXINION.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1A38238EFCBE3E5EF738FC63792B4CF7 /* OXINION.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OXINION.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		200C7B47FC58B701C395118A125906A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		25A597217F55580CB708087F02A57D76 /* OXINION-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OXINION-prefix.pch"; sourceTree = "<group>"; };
 		31C700E73ACEA5406C13182F3E630131 /* Pods-OXINION_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OXINION_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		368C8CF5A97F902B1FBDE75BE3920F12 /* OXINION-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OXINION-dummy.m"; sourceTree = "<group>"; };
@@ -51,13 +51,13 @@
 		5E948393FA5F221D41A990264D6B878A /* Pods-OXINION_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OXINION_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6256CA9010343C436B89C994C19F71FF /* Pods-OXINION_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OXINION_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		66A1D0680D355B6A80543EFA7CDEE83B /* OXINION-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OXINION-umbrella.h"; sourceTree = "<group>"; };
-		6772952AEEA7E34662CA7A7157656544 /* Pods_OXINION_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OXINION_Example.framework; path = "Pods-OXINION_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6772952AEEA7E34662CA7A7157656544 /* Pods_OXINION_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OXINION_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		701309C31F85D67C19352446E63EF0B5 /* Pods-OXINION_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OXINION_Example-frameworks.sh"; sourceTree = "<group>"; };
 		709F67CEA5B11B9A76208B67AD302C61 /* Pods-OXINION_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OXINION_Tests-resources.sh"; sourceTree = "<group>"; };
 		7243D575F0FE0EF482047BE869EB6407 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		797FEDA3E6E0A77AF820A6744D7F1102 /* Pods-OXINION_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OXINION_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B23529664D15D6DD9C778CA45E270B9F /* Pods_OXINION_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OXINION_Tests.framework; path = "Pods-OXINION_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B23529664D15D6DD9C778CA45E270B9F /* Pods_OXINION_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OXINION_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B659735EE3B2387114692A462746A91E /* Pods-OXINION_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OXINION_Example.modulemap"; sourceTree = "<group>"; };
 		BA9D094AA8884F850A816EB8E624CF20 /* Pods-OXINION_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OXINION_Tests-dummy.m"; sourceTree = "<group>"; };
 		BB3CFFD05B32B8F2D8A5E8DF502B4A68 /* OXINION.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OXINION.xcconfig; sourceTree = "<group>"; };
@@ -68,8 +68,8 @@
 		EA81B7E3ED9E83B3CCC03DE23E612DFB /* Pods-OXINION_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OXINION_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EB1753D0F88F5846BED1A351D6661212 /* Pods-OXINION_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OXINION_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EF837DADDEB365783C3DA790EFBB620A /* Pods-OXINION_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OXINION_Tests.modulemap"; sourceTree = "<group>"; };
-		F54D617860192C8486CA5AB90532EFF7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OXINION/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		F64B936134538F3FDC8B1536B125C6F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F2237577213293D900497A61 /* OXINION.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OXINION.swift; path = OXINION/Classes/OXINION.swift; sourceTree = "<group>"; };
+		F64B936134538F3FDC8B1536B125C6F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F7CB10ABFC1DEAE5805D95D473BD3245 /* Pods-OXINION_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OXINION_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FCA2DA909D304D24D176AE57097BAA72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,9 +113,9 @@
 		1EFBD998553665ED17C942DAC1CB418A /* OXINION */ = {
 			isa = PBXGroup;
 			children = (
-				F54D617860192C8486CA5AB90532EFF7 /* ReplaceMe.swift */,
 				FC519E40A531510670E0C0692BA0030C /* Pod */,
 				CD249CE4D2B7493AF03450DA5925AA04 /* Support Files */,
+				F2237577213293D900497A61 /* OXINION.swift */,
 			);
 			name = OXINION;
 			path = ../..;
@@ -321,6 +321,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					DB0002C65A44719DBF17E367B71A33ED = {
+						LastSwiftMigration = 0930;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -378,8 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2237578213293D900497A61 /* OXINION.swift in Sources */,
 				613433DDDF318A2E97027562AAC60069 /* OXINION-dummy.m in Sources */,
-				3BF117BD35979185AC6B195BB5152C5A /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB3CFFD05B32B8F2D8A5E8DF502B4A68 /* OXINION.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -670,6 +676,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB3CFFD05B32B8F2D8A5E8DF502B4A68 /* OXINION.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -690,8 +697,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -727,8 +733,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
