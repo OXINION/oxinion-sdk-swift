@@ -22,7 +22,7 @@ pod 'OXINION'
 
 ## Author
 
-OXINION, brandonha00918@gmail.com
+OXINION,Inc. , support@oxinion.com
 
 ## License
 
