@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		00F905F46363E649F8E1A627 /* Pods-OXINION_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OXINION_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OXINION_Example/Pods-OXINION_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		06D974A2AE358E96B16265C2 /* OXINION.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OXINION.podspec; path = ../OXINION.podspec; sourceTree = "<group>"; };
-		1934F48E851655D84EACAF72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		06D974A2AE358E96B16265C2 /* OXINION.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OXINION.podspec; path = ../OXINION.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1934F48E851655D84EACAF72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OXINION_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OXINION_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		92A248A3477D9A98CC6D2FF5 /* Pods_OXINION_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OXINION_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98138F7A2ABB4CA5A08A356C /* Pods_OXINION_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OXINION_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF82117BA607C76C79571A4F /* Pods-OXINION_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OXINION_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OXINION_Tests/Pods-OXINION_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E74EF47BA7E5D78B6BC7083D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E74EF47BA7E5D78B6BC7083D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,15 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-OXINION_Example-checkManifestLockResult.txt",
 			);
@@ -288,15 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-OXINION_Tests-checkManifestLockResult.txt",
 			);
@@ -310,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OXINION_Example/Pods-OXINION_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/OXINION/OXINION.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OXINION.framework",
 			);

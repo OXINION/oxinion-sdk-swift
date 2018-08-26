@@ -1,0 +1,6 @@
+framework module Pods_OXINION_Tests {
+  umbrella header "Pods-OXINION_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

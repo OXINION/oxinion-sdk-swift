@@ -1,0 +1,6 @@
+framework module Pods_OXINION_Example {
+  umbrella header "Pods-OXINION_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

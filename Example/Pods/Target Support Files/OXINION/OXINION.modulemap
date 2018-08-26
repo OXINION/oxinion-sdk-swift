@@ -1,0 +1,6 @@
+framework module OXINION {
+  umbrella header "OXINION-umbrella.h"
+
+  export *
+  module * { export * }
+}
